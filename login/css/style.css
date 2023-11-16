@@ -28,6 +28,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 1rem;
+    overflow: hidden;
 }
 
 .form-image img {
@@ -174,6 +175,23 @@ body {
     color: #fff;
 }
 
+@media screen and (max-width: 1332px) {
+    .form-image{
+        display: flex;
+        width: 50%;
+    }
+
+    .container {
+        width: 90%;
+    }
+
+    .form {
+        width: 50%;
+        border: 35px;
+       
+    }
+}
+
 @media screen and (max-width: 1330px) {
     .form-image{
         display: none;
@@ -185,6 +203,7 @@ body {
 
     .form {
         width: 100%;
+        border-radius: 35px;
     }
 }
 
